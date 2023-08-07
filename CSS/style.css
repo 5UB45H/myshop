@@ -1,0 +1,188 @@
+body{
+	scroll-behavior: smooth;
+}
+.container-fluid{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.container span{
+	color: red;
+}
+.container button span:hover{
+	border: none;
+	color: black;
+}
+.navbar-nav a{
+	transition: all 0.3s ease;
+}
+.navbar-nav a:hover{
+   color: crimson;
+}
+.home{
+	margin-top: 3.8%;
+}
+.carousel-item .carousel-caption{
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.carousel-item .carousel-caption h3{
+	font-size: 60px;
+}
+.carousel-item .carousel-caption p{
+	font-size: 24px;
+}
+.carousel-item .carousel-caption button{
+	width: 160px;
+	height: 45px;
+	margin-top: 1%;
+	border: none;
+	outline: none;
+	border: 2.5px solid white;
+	background: transparent;
+	color: white;
+	font-weight: 500;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all ease-in 0.3s;
+}
+.carousel-item .carousel-caption button:hover{
+	background: white;
+	color: crimson;
+}
+.carousel-item img{
+	height: 91.7vh;
+}
+.selection{
+	border-bottom: none;
+}
+.selection .row .special{
+	margin-bottom: 20px;
+}
+.selection .card a{
+	margin: auto;
+	margin-top: -30px;
+	text-decoration: none;
+	color: black;
+	width: 140px;
+	height: 40px;
+	font-weight: lighter;
+	border: 1.4px solid gray;
+	text-align: center;
+	padding-top: 7px;
+	transition: all 0.3s ease;
+	border-radius: 2px;
+}
+.selection .card a:hover{
+  background: crimson;
+  color: white;
+  border: none;
+}
+.sale .content{
+	margin-top: 260px;
+}
+.sale .content p{
+	font-size: 29px;
+   color: crimson;
+}
+.sale .content h2{
+	font-size: 47px;
+   color: crimson;	
+}
+.sale .content button{
+	margin-top: 30px;
+	width: 160px;
+	height: 43px;
+	font-size: 17px;
+	border: 1.5px solid black;
+	background: transparent;
+	color: black;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.sale .content button:hover{
+	background: crimson;
+	border: none;
+	color: white;
+	transform: scale(1.01);
+}
+.blog .card .card-body h4{
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.blog .card .card-body h4:hover{
+  color: rgba(0, 0, 0, 0.6);
+}
+.about-us img{
+	border-radius: 5px;
+}
+.about-us .content .title h4{
+	font-size: 29px;
+}
+.about-us .content .description h3{
+	text-align: justify;
+	font-size: 18.8px;
+}
+.about-us .content .description p{
+	text-align: justify;
+	font-size: 17.8px;
+	font-weight: 400 !important;
+}
+.popular p{
+	color: crimson;
+	font-size: 18.3px;
+}
+.popular span.price{
+	color: black;
+	margin-top: -22%;
+   margin-left: 34.4%;
+}
+.newsletter input{
+	width: 350px;
+	height: 40px;
+	border: 0.8px solid gray;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-right: none;
+	outline: none;
+}
+.newsletter input:focus{
+   border: 1.2px solid crimson;
+}
+.newsletter button{
+	color: black;
+	text-decoration: none;
+	width: 140px;
+	height: 40px;
+	background: crimson;
+	margin-left: -4.3px;
+	color: white;
+	border: none;
+	outline: none;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	transition: all 0.3s ease;
+}
+.newsletter button:hover{
+   background: rgba(255, 0, 0, 0.8);
+}
+.footer ul{
+	display: block;
+}
+.footer ul li{
+	margin-top: 10px;
+	list-style: none;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: white;
+}
+.footer .icons i{
+  transition: all 0.3s ease;
+}
+.footer .icons i:hover{
+	cursor: pointer;
+	transform: scale(1.06);
+}
+

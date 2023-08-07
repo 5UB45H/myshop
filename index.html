@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap 5 Ecommerce webpage</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/responsive.css">
+</head>
+<body id="home">
+	<!--Bootstrap 5 Ecommerce WebPage-->
+
+  <!--navbar section-->
+   <nav class="navbar navbar-expand-lg bg-light fixed-top border border-bottom-3" >
+     <div class="container">
+       <a href="" class="nav-link fs-4">E-<span>Shop</span></a>
+       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#responsive">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="responsive">
+       <ul class="navbar-nav">
+         <li class="nav-item">
+           <a href="#home" class="nav-link ms-4 active" style="color: red;">Home</a>
+         </li>
+         <li class="nav-item">
+           <a href="#selection" class="nav-link ms-4 select">Selection</a>
+         </li>
+         <li class="nav-item">
+           <a href="#discount" class="nav-link ms-4 discount">Discount</a>
+         </li>
+         <li class="nav-item">
+           <a href="#blog" class="nav-link ms-4 blog">Blogs</a>
+         </li>
+         <li class="nav-item">
+           <a href="#about" class="nav-link ms-4 about">About Us</a>
+         </li>
+         <li class="nav-item">
+           <a href="#popular" class="nav-link ms-4 popular">Popular</a>
+         </li> 
+         <li class="nav-item">
+           <a href="#contacts" class="nav-link ms-4 contact">Contact</a>
+         </li>         
+       </ul>
+     </div>
+    </div>  
+   </nav>
+   
+
+   <!--home section-->
+    <section class="home">
+          <div id="demo" class="carousel slide mt-3" data-bs-ride="carousel">
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img src="images/1.jpg" class="img-fluid w-100">
+                 <div class="carousel-caption text-light fw-bold">
+                    <h3>New Product</h3>
+                    <p class="mt-3">New Arrivals of the best devices in 2023</p>
+                    <button type="button">Order Now</button>
+                 </div>
+               </div>             
+               <div class="carousel-item">
+                 <img src="images/3.jpg" class="img-fluid w-100"> 
+                 <div class="carousel-caption text-light fw-bold">
+                    <h3>Los Angeles</h3>
+                    <p class="mt-3">Hurry Up ! We have linited discount offer</p>
+                    <button type="button">Order Now</button>
+                 </div>                 
+               </div>               
+             </div>
+             <!--Left and Right Controls-->
+             <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon"></span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+             </button>
+
+             <!--Indicators dot-->
+             <div class="carousel-indicators">
+               <button class="active" data-bs-target="#responsive" data-bs-slide-to="0"></button>
+               <button class="active" data-bs-target="#responsive" data-bs-slide-to="1"></button>
+             </div>
+          </div>
+    </section> 
+
+    <div id="selection">
+      
+    </div>
+
+    <section class="selection mt-5">
+        <div class="container">
+          <div class="row mt-5">
+            <div class="special">
+              <h4 class="mt-5 text-center">Special Selection</h4>
+            </div>  
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 mt-sm-3 mt-md-0 mt-lg-0">
+              <div class="card border border-0">
+                <img src="images/ones.jpg" class="img-fluid img-thumbnail">
+                <p class="text-center mt-3">Redmi Note 10</p>
+                <span class="text-center fw-bolder text-black mb-5">$ 10.24</span>
+                <a href="#">Add to Cart</a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-3 mt-md-0 mt-lg-0">
+              <div class="card border border-0">
+                <img src="images/2.jpg" class="img-fluid img-thumbnail"> 
+                <p class="text-center mt-3">Iphone 10</p>
+                <span class="text-center fw-bolder text-black mb-5">$ 10.24</span>
+                <a href="#">Add to Cart</a>               
+              </div>
+            </div>           
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-5 mt-md-0 mt-lg-0">
+              <div class="card border border-0">
+                <img src="images/three.jpg" class="img-fluid img-thumbnail">  
+                <p class="text-center mt-3">Samsung Galaxy</p>
+                <span class="text-center fw-bolder text-black mb-5">$ 10.24</span>
+                <a href="#">Add to Cart</a>
+              </div>
+            </div>          
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 mt-sm-5 mt-md-5 mt-lg-0">
+              <div class="card border border-0">
+                <img src="images/four.jpg" class="img-fluid img-thumbnail">  
+                <p class="text-center mt-3">Redmi Note 11</p>
+                <span class="text-center fw-bolder text-black mb-5">$ 10.24</span>
+                <a href="#">Add to Cart</a>                              
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="sale mt-5" id="discount">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 col-sm-6 col-md-6 col-lg-6 col-xl-6 content">
+              <p>Discount upto 90%</p>
+              <h2>Grand Sale Offer in Prices</h2>
+              <button>Buy Now</button>
+            </div>
+          <div class="col-5 col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-5">
+            <img src="images/5.jpg" class="img-fluid w-100">
+          </div>   
+          </div>
+      </div>
+    </section>
+  
+    <div id="blog">
+      
+    </div>
+
+    <section class="blog mt-5">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="content mt-5 text-center">
+            <h4>Our Latest Blog</h4>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-4">
+            <div class="card border border-0">
+              <img src="images/blog1.jpg" class="img-fluid" style="border-radius: 4px;">
+              <div class="card-body text-start">
+                <h4>High Quality Gaming in Cheap price</h3>
+                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+                <p class="fw-bold">Author: <span class="text-black fw-normal">The Uncle Rat (The XSS Rat)</span></p>  
+                <button class="btn btn-danger rounded mt-2">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-4">
+            <div class="card border border-0">
+              <img src="images/blog2.jpg" class="img-fluid" style="border-radius: 4px;">
+              <div class="card-body text-start">
+                <h4>Best Quality Video and proper photos</h3>
+                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+                <p class="fw-bold">Author: <span class="text-black fw-normal">Insider Phd</span></p>
+                <button class="btn btn-danger rounded mt-2">Read More</button>
+              </div>              
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mt-4">
+            <div class="card border border-0">
+              <img src="images/blog3.jpg" class="img-fluid" style="border-radius: 4px;">
+              <div class="card-body text-start">
+                <h4>Using smart devices for online works</h3>
+                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+                <p class="fw-bold">Author: <span class="text-black fw-normal">Subash Pandeya</span></p>
+                <button class="btn btn-danger rounded mt-2">Read More</button>                
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="about"></div>
+
+    <section class="about-us mt-5">
+      <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 mt-3 mt-lg-5">
+              <img src="images/about.jpg" class="img-fluid">
+            </div>
+             <div class="col-12 col-lg-6 mt-4 mt-lg-5 content">
+              <div class="title mt-lg-5">
+                <h4 class="mt-lg-4">About Us</h4>
+              </div>
+              <div class="description">
+                <h3 class="fw-light text-secondary mt-3 mt-xl-5 mt-lg-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</h3>
+                <p class="mt-3 mt-xl-4 mt-lg-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat tempor incididunt ut labore et dolore magna aliqua..</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <div id="popular"></div>
+
+    <section class="popular mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="title mt-5">
+            <h4 class="text-center">Popular Of This Year</h4>
+          </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 mt-5 d-none d-md-block">
+              <p class="ms-4">Top Rated</p>            
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-2 mt-lg-5 d-block d-md-none">
+              <p class="ms-4 text-center">Top Rated and Best Selling Phones</p>         
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 mt-5 d-none d-md-block">
+              <p class="ms-4">Best Selling</p>            
+            </div>
+            <div class="col col-md-6 d-none d-lg-block col-lg-4 mt-5">
+              <p class="ms-2">On Sale</p>            
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-0 mt-md-0 mt-lg-0">
+                <img src="images/Popular/1.png" class="img-fluid mt-5 col-lg-2" style="width: 140px;height: 160px;">
+
+                 <a href="" class="text-black text-decoration-none">Iphone 14</a>
+                 <span class="price d-block">$ 1000.00</span>         
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                <img src="images/Popular/2.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;">
+                <a href="" class="text-black text-decoration-none">Realme 7</a>
+                <span class="price d-block">$ 250.00</span>           
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0 mt-md-5">
+                <img src="images/Popular/3.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;"> 
+                <a href="" class="text-black text-decoration-none">Iphone 13</a>
+                <span class="price d-block">$ 300.00</span>          
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mt-5">
+                <img src="images/Popular/4.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;"> 
+                <a href="" class="text-black text-decoration-none">Samsung J7 Lite</a>
+                <span class="price d-block">$ 150.00</span>          
+              </div>
+              <div class="col-12 col-md-6 col-md-4 col-lg-4 mt-5">
+                <img src="images/Popular/5.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;">
+                <a href="" class="text-black text-decoration-none">Samsung S3</a>
+                <span class="price d-block">$ 220.00</span>           
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mt-5">
+               <img src="images/Popular/6.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;">
+               <a href="" class="text-black text-decoration-none">Samsung Galaxy S8</a>
+               <span class="price d-block">$ 200.50</span>           
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mt-5">
+                <img src="images/Popular/7.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;">
+                <a href="" class="text-black text-decoration-none">Redmi Note 10</a>
+                <span class="price d-block">$ 450.00</span>           
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mt-5">
+                <img src="images/Popular/8.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;">
+                <a href="" class="text-black text-decoration-none">Oppo F5 Plus</a>
+                <span class="price d-block">$ 600.00</span>           
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mt-5">
+               <img src="images/Popular/9.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;">
+               <a href="" class="text-black text-decoration-none ms-1">Asus Rog</a>
+               <span class="price d-block">$ 450.00</span>           
+              </div> 
+              <div class="col-12 col-md-6 col-lg-4 mt-5">
+                <img src="images/Popular/10.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;">
+                <a href="" class="text-black text-decoration-none">Iphone 14 Pro</a>
+                <span class="price d-block">$ 720.45</span>           
+              </div> 
+              <div class="col-12 col-md-6 col-lg-4 mt-5">
+                <img src="images/Popular/11.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;">
+                <a href="" class="text-black text-decoration-none">Redmi 12 Pro</a>
+                <span class="price d-block">$ 600.00</span>           
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mt-5">
+               <img src="images/Popular/12.jpg" class="img-fluid mt-5" style="width: 140px;height: 160px;">
+               <a href="" class="text-black text-decoration-none">Vivo Y97</a>
+               <span class="price d-block">$ 450.00</span>           
+              </div> 
+        </div>
+      </div>
+    </section>
+    
+    <div id="contacts"></div>
+
+    <section class="newsletter mt-5">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="title mt-5">
+            <h3 class="mt-5 text-center">Newsletter Subscription</h3>
+          </div>
+          <div class="col text-center mt-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-12 text-center mt-3">
+            <input type="text" name="" placeholder="Enter Your Email ....." class="ps-3">
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer mt-5">
+      <div class="container-fluid bg-danger">
+       <div class="container"> 
+        <div class="row mt-5 ">
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <h3 class="fs-5 text-white">Attire</h3>
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, mollit anim id est laborum.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <h3 class="fs-5 text-white">Links</h3>
+            <ul class="nav mt-3">
+              <li><a href="">> Home</a></li>
+              <li><a href="">> Selection</a></li>
+              <li><a href="">> Blogs</a></li>
+              <li><a href="">> About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5">
+            <h3 class="fs-5 text-white">Contact Us</h3>
+            <i class="fa-solid fa-location-dot text-white mt-3"></i>
+            <span class="text-white mt-3 ms-2">Club Street, Kalimati, Kathmandu-Nepal</span>
+            <br>
+            <i class="fa-solid fa-envelope text-white mt-3"></i>
+            <span class="text-white mt-3 ms-2">pandeyasubashand94@gmail.com.np </span>
+            <br>
+            <i class="fa-solid fa-phone text-white mt-3"></i>
+            <span class="text-white mt-3 ms-2">01-4267854 / 9872747685</span>
+          </div>
+          <div class="icons col-12 col-md-6 col-lg-3 mt-5">
+            <h3 class="fs-5 text-white ms-2">Follow Us</h3>
+            <i class="fa-brands fa-facebook mt-2 ms-2 fs-4 text-white"></i>
+            <i class="fa-brands fa-twitter mt-2 ms-3 fs-4 text-white"></i>
+            <i class="fa-brands fa-instagram mt-2 ms-3 fs-4 text-white"></i>
+            <i class="fa-brands fa-linkedin mt-2 ms-3 fs-4 text-white"></i>
+          </div>
+         </div> 
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+   <script type="text/javascript">
+      const home = document.querySelector('.active');
+      const selection = document.querySelector('.select');
+      const discount = document.querySelector('.discount');
+      const blogs = document.querySelector('.blog');
+      const about = document.querySelector('.about');
+      const popular= document.querySelector('.popular');
+      const contact = document.querySelector('.contact');
+      
+
+      selection.addEventListener('click',() =>{
+         home.style.color = 'rgba(33, 37, 41, 0.75)';
+         selection.style.color = 'crimson'; 
+         discount.style.color = 'rgba(33, 37, 41, 0.75)';  
+         blogs.style.color = 'rgba(33, 37, 41, 0.75)';
+         about.style.color = 'rgba(33, 37, 41, 0.75)';
+         popular.style.color = 'rgba(33, 37, 41, 0.75)';
+         contact.style.color = 'rgba(33, 37, 41, 0.75)';
+      });
+
+      discount.addEventListener('click',() =>{
+         home.style.color = 'rgba(33, 37, 41, 0.75)';
+         discount.style.color = 'crimson'; 
+         selection.style.color = 'rgba(33, 37, 41, 0.75)';  
+         blogs.style.color = 'rgba(33, 37, 41, 0.75)';
+         about.style.color = 'rgba(33, 37, 41, 0.75)';
+         popular.style.color = 'rgba(33, 37, 41, 0.75)';
+         contact.style.color = 'rgba(33, 37, 41, 0.75)';
+      });
+      blogs.addEventListener('click',() =>{
+         home.style.color = 'rgba(33, 37, 41, 0.75)';
+         blogs.style.color = 'crimson'; 
+         discount.style.color = 'rgba(33, 37, 41, 0.75)';  
+         selection.style.color = 'rgba(33, 37, 41, 0.75)';
+         about.style.color = 'rgba(33, 37, 41, 0.75)';
+         popular.style.color = 'rgba(33, 37, 41, 0.75)';
+         contact.style.color = 'rgba(33, 37, 41, 0.75)';
+      });
+      about.addEventListener('click',() =>{
+         home.style.color = 'rgba(33, 37, 41, 0.75)';
+         about.style.color = 'crimson'; 
+         discount.style.color = 'rgba(33, 37, 41, 0.75)';  
+         blogs.style.color = 'rgba(33, 37, 41, 0.75)';
+         selection.style.color = 'rgba(33, 37, 41, 0.75)';
+         popular.style.color = 'rgba(33, 37, 41, 0.75)';
+         contact.style.color = 'rgba(33, 37, 41, 0.75)';
+      });
+      popular.addEventListener('click',() =>{
+         home.style.color = 'rgba(33, 37, 41, 0.75)';
+         popular.style.color = 'crimson'; 
+         discount.style.color = 'rgba(33, 37, 41, 0.75)';  
+         blogs.style.color = 'rgba(33, 37, 41, 0.75)';
+         about.style.color = 'rgba(33, 37, 41, 0.75)';
+         selection.style.color = 'rgba(33, 37, 41, 0.75)';
+         contact.style.color = 'rgba(33, 37, 41, 0.75)';
+      });
+      contact.addEventListener('click',() =>{
+         home.style.color = 'rgba(33, 37, 41, 0.75)';
+         contact.style.color = 'crimson'; 
+         discount.style.color = 'rgba(33, 37, 41, 0.75)';  
+         blogs.style.color = 'rgba(33, 37, 41, 0.75)';
+         about.style.color = 'rgba(33, 37, 41, 0.75)';
+         selection.style.color = 'rgba(33, 37, 41, 0.75)';
+         popular.style.color = 'rgba(33, 37, 41, 0.75)';
+      });
+      home.addEventListener('click',() =>{
+         contact.style.color = 'rgba(33, 37, 41, 0.75)';
+         home.style.color = 'crimson'; 
+         discount.style.color = 'rgba(33, 37, 41, 0.75)';  
+         blogs.style.color = 'rgba(33, 37, 41, 0.75)';
+         about.style.color = 'rgba(33, 37, 41, 0.75)';
+         selection.style.color = 'rgba(33, 37, 41, 0.75)';
+         popular.style.color = 'rgba(33, 37, 41, 0.75)';
+      });
+   </script>
+</body>
+</html>
